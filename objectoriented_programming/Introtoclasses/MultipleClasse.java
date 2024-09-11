@@ -1,3 +1,4 @@
+package Introtoclasses;
 public class MultipleClasse { // main class
     public void fullThrottle(){
         System.out.println("The car is going as fast as it can!");

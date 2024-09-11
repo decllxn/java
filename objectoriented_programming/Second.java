@@ -1,3 +1,5 @@
+import Introtoclasses.MultipleClasse;
+
 public class Second {
     public static void main(String[] args) {
         MultipleClasse myCar = new MultipleClasse();

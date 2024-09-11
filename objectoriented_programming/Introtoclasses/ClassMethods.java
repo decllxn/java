@@ -1,3 +1,4 @@
+package Introtoclasses;
 public class ClassMethods {
     // Functions inside classes
 

@@ -1,3 +1,4 @@
+package Introtoclasses;
 public class ClassAttribute {
     int y = 8; // Attribute of the class
     int x; // Un initialized attribute
