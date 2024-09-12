@@ -1,0 +1,19 @@
+ENCAPSULATION IN JAVA
+- It is one of four fundamental OOP concepts
+- It refers to the practice of bundling the data(variables) and the methods(functions) that operate on the data into a single unit
+- Bundling the data is usually done with classes
+- Encapsulation helps protect the integrity of the data by preventing outside code from directly accessing and modifying it
+
+- Private variables: The data (or variables) of a class are typically marked as private
+- Public methods: The methods that operate on the data are typically marked as public
+
+Why Encapsulation is important
+1. Data Hiding
+2. Increased Flexibility
+3. Control Over the Data
+4. modularity - Better organization of code
+5. Ease of maintenance
+
+- Encapsulation is achieved in java through the use of access modifiers
+- Access modifiers are keywords that determine the accessibility of a class, method, or variable
+- Private, public, protected
