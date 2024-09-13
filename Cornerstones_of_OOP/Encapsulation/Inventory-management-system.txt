@@ -1,0 +1,15 @@
+Simple Inventory Management System:
+
+Scenario: Imagine you're working on an inventory management system for a small retail store. 
+You need to create a class Product that represents items in the store's inventory. 
+Each product should have a productID, a name, and a price. 
+You should also provide methods to increase and decrease the price, but the price must never go below 0.
+
+Objective:
+
+Implement the Product class with proper encapsulation:
+Private variables: productID, name, price
+Getter methods to retrieve product details.
+A method to increase the price (with a parameter for the amount).
+A method to decrease the price (but ensure it doesn’t go below 0).
+Bonus: Test your class by creating a main method that creates a product, prints its details, increases the price, and then decreases it.
