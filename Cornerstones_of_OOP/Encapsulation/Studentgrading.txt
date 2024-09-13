@@ -1,0 +1,15 @@
+2. Student Grading System (Intermediate)
+Scenario: You're designing a grading system for a school. 
+You need to create a Student class that holds a student's studentID, name, 
+and a private array or list of grades (ranging from 0 to 100). 
+Create methods to add new grades to the list and calculate the average grade. 
+The grades should not be modified directly from outside the class.
+
+Objective:
+
+Implement the Student class with:
+Private variables: studentID, name, and a list/array of grades.
+A method to add grades (ensure grades are between 0 and 100).
+A method to calculate and return the average grade.
+Getter methods to retrieve the student's name and studentID.
+Bonus: Create a main method to create a student, add grades, and print the average grade.
