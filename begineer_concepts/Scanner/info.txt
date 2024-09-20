@@ -1,0 +1,20 @@
+JAVA USER INPUT(Scanner)
+
+- The scanner class is used to get user input
+- Found in the java.util package
+- To use the scanner class, create an object of the class and use any,
+  Of the available methods found in scanner
+- Scanner is a complement of Formatter
+- It reads formatted input and converts it into its binary form
+- Scanner can be used to read input from the console, a file, a string or any ohther source that implements,
+  the readable format
+
+
+1. SCANNER CONSTRUCTORS
+
+- The scanner class has several constructors
+- A scanner can be created for a string, an InputStream, a File, a Path or any Object of readable format
+- Example of Scanner that reads the file Test.txt:
+
+  FileReader fin = new FileReader("Test.txt)
+  Scanner src = new Scanner(fin)
