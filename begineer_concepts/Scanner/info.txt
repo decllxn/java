@@ -48,3 +48,10 @@ JAVA USER INPUT(Scanner)
 - Uses a Readable source
 - Any object that implements the Readable interface(like Reader objects) can be used as the input source
 - This is the most general constructor
+
+(e). Scanner(Path Source) thows IOException
+- Creates a Scanner that uses the file specified by from as the source for input
+- The file must be a readable file
+- A path represents a file or directory path in the file system.
+- Files.newBufferedReader(path) method is commonly used in conjunction with this constructor
+- An IOException is thrown if the file is not accessible.
