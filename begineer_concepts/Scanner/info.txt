@@ -43,3 +43,8 @@ JAVA USER INPUT(Scanner)
 (c). Scanner(String from)
 - Creates a Scanner that uses the String specified by from as a source for input
 - The entire string is treated as an input source
+
+(d). Scanner(from a readable source)
+- Uses a Readable source
+- Any object that implements the Readable interface(like Reader objects) can be used as the input source
+- This is the most general constructor
