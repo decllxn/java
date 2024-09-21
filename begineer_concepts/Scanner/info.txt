@@ -39,3 +39,7 @@ JAVA USER INPUT(Scanner)
 - This Scanner reads from a file. You need to pass a file object
 - Representinfg the file you want to read from
 - If the file doesn't exist, it throws a FileNotFoundException
+
+(c). Scanner(String from)
+- Creates a Scanner that uses the String specified by from as a source for input
+- The entire string is treated as an input source
