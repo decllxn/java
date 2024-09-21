@@ -18,3 +18,24 @@ JAVA USER INPUT(Scanner)
 
   FileReader fin = new FileReader("Test.txt)
   Scanner src = new Scanner(fin)
+
+- The next  line creates a Scanner that reads from standard input
+  
+  Scanner conin = new Scanner(System.in);
+
+- System.in is an object of type InputStream. Thus, the call to the constructor maps to Scanner(InputStream)
+- Scanner constructor methods:
+  The scanner class provides multiple constructors that allow it to read input from,
+  various sources, such as files, input streams and strings.
+
+(a). Scanner(InputStream source)
+- Reads from an input stream(e.g System.in)
+- System.in which allows reading from the standard input keyboard
+
+(b). Scanner(File from)
+       throws FileNotFoundException
+- Creates a Scanner that uses the file specified by from as a source for input
+- The file must be a readable file
+- This Scanner reads from a file. You need to pass a file object
+- Representinfg the file you want to read from
+- If the file doesn't exist, it throws a FileNotFoundException
