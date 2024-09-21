@@ -1,0 +1,15 @@
+1. Basic User Input Form (Beginner Level)
+
+Goal: Create a simple form that collects user information 
+      (e.g., name, age, email, and phone number) and 
+      validates each input.
+
+Features:
+       Ask the user for their name (ensure it’s not empty).
+       Ask for their age and validate it's a number.
+       Prompt for their email and ensure it contains "@" and a domain.
+       Request their phone number and validate that it’s numeric.
+
+Challenges:
+    Input validation (for example, check if the age is a valid integer).
+    Handling invalid inputs and prompting the user to try again.
